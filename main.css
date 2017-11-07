@@ -1,0 +1,145 @@
+﻿/*Declaracion linea entre boton e ingreso de tweet*/
+hr {
+  height: 2px;
+  background-color:#F4F4F4;
+}
+
+
+/*Declaracion del menu superior*/
+.menu{
+	background: #20CDFF;
+	height: 80px;
+	margin-top:-30px;
+	margin-right: -3px;
+}
+
+h2, h1, p {
+	font-family: 'Courier New';
+}
+
+h1{
+	padding-top: 20px; 
+	text-align:center;
+	color:#FFFFFF;
+	font-size:35px;
+}
+
+h4{
+color:#1DB3EA;
+}
+
+/*Fondo de pantalla*/
+.fondo{
+	background-image:url(image/Portadas-para-twitter-de-amor-libertad-1024x512.jpg);
+	margin: 0px 0px;
+	top: 79px;
+	width:99.0001%;
+	height:100%;
+	position:absolute;
+}
+
+.contenedor{
+	width:500px;
+	height:200px;
+	position:absolute;
+ 	top:40px;
+ 	margin-left: 80px;
+ 	margin-right:800px;
+	margin-top:80px;
+	background-color: #fff;
+	padding: 10px;
+	display:block;
+}
+
+.conteiner{
+    	width:500px;
+	height:auto;
+	position:absolute;
+ 	top:40px;
+ 	margin-left:680px;
+	margin-top:80px;
+	background-color: #fff;
+	padding: 10px;
+	display:block;
+}	
+
+
+/* Declaracion de area de ingreso de tweet*/
+textarea {
+	overflow:hidden;	
+	padding:10px;
+	width:400px;
+	height:auto;
+	font-size:15px;	
+	margin:10px auto;
+	display:block;
+	border:none;
+	color:#4E4D53;
+	position:relative;
+}
+
+
+/*Declaración de propiedades del boton*/
+button[type=button]{
+	margin-top:10px;
+	background-color:#F4EDED;
+	padding: 15px 0px;
+	width: 140px;
+	border-radius:7px;
+	border: none;
+	margin-bottom: 18px;
+	color:#fff;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+
+#cont {
+	color: #4E4D53;
+	text-align: justify;
+	margin-bottom: 6px;
+	margin-top: 350px;
+	position:relative;
+ 	top:auto;
+ 	left: 20px;
+ 	word-wrap: break-word; 
+   	width:1000px;
+}
+
+#cont span {
+	margin-right: auto;
+}
+
+#cont div {
+	padding: 1em 0.5em;
+	margin-bottom: 2em;
+	outline: 0.1em solid #E5E3F2;
+	background-color: #FFF;
+}
+
+label{
+    	display:inline-block;
+    	float: right;
+    	padding: 25px;
+	text-align: right;
+    	width: 50px;
+	margin-right: 53px;
+}
+
+
+#contador{
+	margin-top:26px;    	
+	display:inline-block;
+    	float: right;
+    	padding: 0px;
+	width: 40px;
+	margin-right: -105px;
+	text-align: center;
+	background-color: #FFF;
+	border: none;
+	font-size: 20px;
+	color: grey;
+}
+
+

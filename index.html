@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>twiter</title>
+	<link rel="stylesheet" href="main.css">
+	<script type="text/javascript" src="autoresize.jquery.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="menu">
+				<h1>Twitter<span class="icon-twitter"></span></h1>
+			</div>
+		</nav>
+	</header>
+
+	<img class="fondo" src="image/Portadas-para-twitter-de-amor-libertad-1024x512.jpg" alt="fondo"> 
+	<section>
+		<div class="contenedor">
+			<h2>Reto de Código</h2>
+			<p>Hola,</p>
+			<p>soy front-end developer jr.</p>
+			<hr>
+			<h4>CÓDIGO</h4>
+		</div>
+	</section>
+	<section>                
+		<div class="conteiner">      		
+			<textarea class="txt" id="comment" placeholder="¿Que esta pasando?" onKeyDown="contar()" onKeyUp="contar()" rows='3' cols='8'></textarea> 
+			<hr>
+			<label></label>
+			<input disabled size="3" value="140" id="contador"> 
+        		<button type="button" id="btn" onclick="add()" onKeyDown="contar()" onKeyUp="contar()">TWEET</button>
+		</div>
+   		<div id="cont">
+		</div>
+ 	</section>
+
+<script src="https://use.fontawesome.com/7873633050.js"></script>
+<script type="text/javascript" src="style.js"></script>	
+</body>
+</html>
